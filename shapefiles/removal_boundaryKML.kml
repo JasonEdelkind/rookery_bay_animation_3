@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>removal_boundaryKML.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>RBNERR Rough Outline</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-81.75867940568564,25.96270827220683,0 -81.74949553999035,25.94585232082629,0 -81.73039881726879,25.90799542326792,0 -81.71848449347844,25.9065692516674,0 -81.7016580831458,25.90495656777254,0 -81.68880256975818,25.90988337447462,0 -81.69265534984434,25.91721976100446,0 -81.69580183882661,25.92932131355952,0 -81.68109234179494,25.93159734406748,0 -81.66079387815718,25.92915610115213,0 -81.64746634014908,25.93118895031235,0 -81.63998935786317,25.9452430216763,0 -81.63586700645887,25.95484944533204,0 -81.62856239350204,25.9737681686785,0 -81.62022934085526,25.98447957387578,0 -81.60657253117684,25.98565954867266,0 -81.59129424462104,25.98866206272011,0 -81.59017074221383,25.99620222990389,0 -81.60753208578053,26.00637759384881,0 -81.62604067649742,26.01789858252587,0 -81.65464359903056,26.03708967377933,0 -81.69726443475369,26.06481489038051,0 -81.71952425019359,26.07838076725726,0 -81.73819972308875,26.09797460023227,0 -81.75399751778706,26.11883821902109,0 -81.76702999455185,26.13412253702309,0 -81.77786918322759,26.12774339025087,0 -81.78560845081952,26.11493721638978,0 -81.78642397183293,26.10332484699845,0 -81.80323592662965,26.08998324363523,0 -81.75867940568564,25.96270827220683,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Placemark>
+</Document>
+</kml>
